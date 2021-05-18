@@ -1,0 +1,43 @@
+<!-- <view class="page"> -->
+<!-- <view class="container"> -->
+    <view class="page__hd">
+      
+      
+        <view class="userinfo">
+          <view class="usermotto">演讲计时器⏳</view>
+        </view>
+      
+      <view class="page__desc">根据演讲者事先设定的时间，进行倒计时。</view>
+      <view class="page__desc">对于大于3分钟的演讲:</view>
+      <view class="page__desc">当剩余时间为2分钟时，背景颜色被置为<p style="color:OliveDrab">绿色</p>。</view>
+      <view class="page__desc">当剩余时间为1分钟时，背景颜色被置为<p style="color:Gold">黄色</p>。</view>
+      <view class="page__desc">当剩余时间为15秒时，背景颜色被置为<p style="color:red">红色</p>。</view>
+    </view>
+
+    <view class="button-sp-area">
+
+      <form report-submit="true" bindsubmit="timeHandler">
+
+      <!-- <button class="weui-btn mini-btn" style="border:1px solid #DAA520;color:#DAA520" id="2" type="primary" plain="true" formType="submit">2分钟即兴</button> -->
+      <button class="weui-btn mini-btn" style="border:1px solid #DAA520;color:#DAA520" id="6" type="primary" plain="true" formType="submit">6分钟演讲</button>
+      <button class="weui-btn mini-btn" style="border:1px solid #DAA520;color:#DAA520" id="7" type="primary" plain="true" formType="submit">7分钟演讲</button>
+      <button class="weui-btn mini-btn" style="border:1px solid #DAA520;color:#DAA520" id="10" type="primary" plain="true" formType="submit">10分钟演讲</button>
+
+      </form>
+
+    </view>
+
+    <view class="share">
+    <button class="" size="mini" type="primary" plain="true" open-type="share">点击分享</button>
+    </view>
+
+
+  <!-- </view> -->
+
+
+  <!-- <view style="margin: 0 auto;padding-top: 15px;">
+    <ad unit-id="adunit-a13bd903f2e4a182"></ad>
+  </view> -->
+
+<!-- </view> -->
+

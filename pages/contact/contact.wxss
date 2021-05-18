@@ -1,0 +1,30 @@
+/* pages/contact/contact.wxss */
+
+.page__desc {
+    margin-top: 5px;
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    position:relative;
+}
+
+.ad {
+  /* position: fixed; 
+  left: 20px; 
+  bottom: 50px; */
+  left: 40rpx;
+}
+
+.downbox {
+  padding-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.adContainer {
+  display: flext;
+  justify-content: space-around;
+  /* width: 90% */
+}

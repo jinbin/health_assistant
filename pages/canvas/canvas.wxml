@@ -1,0 +1,5 @@
+<!--pages/canvas/canvas.wxml-->
+
+<view class="main_box">
+  <canvas class="myCanvas" canvas-id="canvas"></canvas>
+</view>

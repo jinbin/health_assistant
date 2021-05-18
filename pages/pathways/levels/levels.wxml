@@ -1,0 +1,70 @@
+<!--menu.wxml-->
+
+<!-- <navigator open-type="switchTab" url="/pages/volItem/volItem"> -->
+<navigator url="/pages/contact/contact">
+<image src="cloud://tmassistant-5275ad.746d-tmassistant-5275ad/images/Pathwayslogo.jpg" style="height: 200px; width: 100%" />
+<!-- <image src="cloud://tmassistant-5275ad.746d-tmassistant-5275ad/images/bannerbig.jpg" style="height: 190px; width: 100%" />
+<view style="display: flex; justify-content: center">
+  <text style="font-size:30px">Pathways at hand</text>  
+</view>
+<view style="display: flex; justify-content: center">
+  <text style="font-size:20px">begin without effort</text>
+</view> -->
+</navigator>
+
+    <view class="button-sp-area">
+    <form report-submit="true" bindsubmit="levelHandler">
+
+        <button id="1" class="weui-btn mini-btn" style="border:1px solid black;color:black" type="primary" plain="true" formType="submit">
+        <icon type="success" size="30"color="blue"></icon>
+        阶段一：掌握基础
+        </button>
+        <button id="2" class="weui-btn mini-btn" style="border:1px solid black;color:black" type="primary" plain="true" formType="submit"> 
+        <icon type="success" size="30"color="orange"></icon>
+        阶段二：学习风格
+        </button>
+        <button id="3" class="weui-btn mini-btn" style="border:1px solid black;color:black" type="primary" plain="true" formType="submit">
+        <icon type="success" size="30"color="red"></icon>
+        阶段三：丰富知识
+        </button>
+        <button id="4" class="weui-btn mini-btn" style="border:1px solid black;color:black" type="primary" plain="true" formType="submit">
+        <icon type="success" size="30"color="purple"></icon>
+        阶段四：培养技能
+        </button>   
+        <button id="5" class="weui-btn mini-btn" style="border:1px solid black;color:black" type="primary" plain="true" formType="submit">
+        <icon type="success" size="30" color="green"></icon>
+        阶段五：专业展示
+        </button>
+        <!-- <button id="6" class="weui-btn mini-btn" style="border:1px solid #D9D9D9;color:#D9D9D9" type="primary" plain="true" formType="submit">
+        旧教育体系CC
+        </button> -->
+        <view class="container">
+        <button id="6" class="weui-btn mini-btn" style="width:170px;" type="default" size="mini" formType="submit" plain="true">CC说明</button>
+        <button id="10" class="weui-btn mini-btn" style="width:180px" type="primary" size="mini" formType="submit">10条路径</button>
+        <button id="matrix" class="weui-btn mini-btn" style="width:170px" type="default" size="mini" formType="submit" plain="true">matrix</button>
+        </view>
+
+        <!-- <view class="container">
+        <button id="6" class="weui-btn mini-btn" style="width:170px;" type="default" size="mini" formType="submit" plain="true">CC说明</button>
+        <button id="contact" class="weui-btn mini-btn" style="width:170px" type="default" size="mini" formType="submit" plain="true">认识作者</button>
+        </view> -->
+
+        <!-- <view class="container">
+        <picker style="width:180px" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <button style="width:180px"type="primary" size="mini">
+            <view class="picker">当前{{array[index]}}</view>
+          </button>
+        </picker>
+        <picker style="width:180px" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <button style="width:180px" type="primary" size="mini">
+            <view class="picker">当前{{array[index]}}</view>
+          </button>
+        </picker>
+        </view> -->
+
+    </form>
+
+    </view>
+
+<import src="../../../templates/page_ft/page_ft.wxml"/>
+<template is="page_ft" data="{{...page_ft}}" />

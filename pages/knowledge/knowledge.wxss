@@ -1,0 +1,58 @@
+/* pages/knowledge/knowledge.wxss */
+
+/* pages/pathways/levels/levels.wxss */
+
+button::after {
+  border: none
+}
+
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 90%;
+    /* height: 60%; */
+}
+.mini-btn{
+  margin-right: 10px;
+  margin-left: 10px;
+  /* width: 80% */
+}
+.mini-btn50{
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 50%
+}
+
+.page__ft{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #888888;
+}
+
+.container {
+  /* height: 20%; */
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  /* justify-content: space-around; */
+  padding: 0rpx 0;
+  /* box-sizing: border-box; */
+} 
+
+.cps-icon-share {
+  position: fixed;
+  text-align: center;
+  bottom: 100rpx;
+  right: 20rpx;
+  z-index: 1000;
+  color: #9a9a9a;
+  font-size: 24rpx;
+  width: 125rpx;
+  height: 115rpx;
+  background-image: url('https://746d-tmassistant-5275ad-1258071577.tcb.qcloud.la/images/write.png?sign=e13a4c52d7e21a10f4f110d742a5dd7d&t=1543247620');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-size: 0;
+}

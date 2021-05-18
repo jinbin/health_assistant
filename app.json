@@ -1,0 +1,80 @@
+{
+  "pages": [
+    "pages/chat/chat",
+    "pages/reading/reading",
+    "pages/tm/champ/champ",
+    "pages/merger/merger",
+    "pages/tm/jixing/jixing",
+    "pages/tm/topics/topics",
+    "pages/tm/topics/topic/topic",
+    "pages/tm/eggs/eggs",
+    "pages/tm/acronym/acronym",
+    "pages/volItem/volItem",
+    "pages/my/my",
+    "pages/tm/clock/set/set",
+    "pages/tm/clock/countdown/countdown",
+    "pages/manage/manage",
+    "pages/testdb/testdb",
+    "pages/music/music",
+    "pages/audio/audio",
+    "pages/contact/contact",
+    "pages/tools/checklist/checklist",
+    "pages/canvas/canvas",
+    "pages/pathways/levels/levels",
+    "pages/knowledge/knowledge",
+    "pages/webview/webview",
+    "pages/knowledge/matrix/matrix",
+    "pages/agenda/agenda",
+    "pages/pathways/desc/desc",
+    "pages/pathways/document/document",
+    "pages/pathways/article/article",
+    "pages/edit/edit",
+    "pages/article/article",
+    "pages/xmadPage/copyInfo",
+    "pages/xmadPage/sell",
+    "pages/xmadPage/collect"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "演讲助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/reading/reading",
+        "iconPath": "./images/tabBar/homepage.png",
+        "selectedIconPath": "./images/tabBar/homepage-sel.png",
+        "text": "在看"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "./images/tabBar/miniprogram.png",
+        "selectedIconPath": "images/tabBar/miniprogram-sel.png",
+        "text": "问答AI"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/tabBar/me-sel.png",
+        "selectedIconPath": "images/tabBar/me.png",
+        "text": "我的"
+      }
+    ]
+  },
+
+  "plugins": {
+    "chatbot": {
+      "version": "1.1.20",
+      "provider": "wx8c631f7e9f2465e1"
+    },
+    "WechatSI": {
+      "version": "0.3.4",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio"
+  ]
+}
